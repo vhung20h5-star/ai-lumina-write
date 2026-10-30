@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///D:/Project/ai-lumina-write/ai-writer-landing/src/app/providers.tsx"],"sourcesContent":["'use client';\n\nimport * as React from \"react\";\nimport { HeroUIProvider } from \"@heroui/react\";\nimport { ThemeProvider as NextThemesProvider } from \"next-themes\";\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return (\n    <NextThemesProvider attribute=\"class\" defaultTheme=\"dark\" enableSystem={true}>\n      <HeroUIProvider>\n        {children}\n      </HeroUIProvider>\n    </NextThemesProvider>\n  );\n}\n"],"names":[],"mappings":";;;;AAGA;AACA;AAJA;;;;AAMO,SAAS,UAAU,EAAE,QAAQ,EAAiC;IACnE,qBACE,6LAAC,mJAAA,CAAA,gBAAkB;QAAC,WAAU;QAAQ,cAAa;QAAO,cAAc;kBACtE,cAAA,6LAAC,mKAAA,CAAA,iBAAc;sBACZ;;;;;;;;;;;AAIT;KARgB","debugId":null}}]
+}
